@@ -5,14 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="images/x-icon" href="favicon.ico" />
-    
     <title>Resume Dek-IT</title>
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      
+      #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      #myImg:hover {opacity: 0.7;}
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+      }
+      
+      /* Modal Content (image) */
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+      
+      /* Caption of Modal Image */
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+      }
+      
+      /* Add Animation */
+      .modal-content, #caption {  
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+      
+      @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+      }
+      
+      @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+      }
+      
+      /* The Close Button */
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      /* 100% Image Width on Smaller Screens */
+      @media only screen and (max-width: 700px){
+        .modal-content {
+          width: 100%;
+        }
+      }
+      </style>
   </head>
   <body id="top">
     <header>
@@ -35,90 +122,94 @@
         </nav>
       </div>
     </header>
-    <div class="page-content">
-      <div>
-<div class="profile-page">
+    <div class="page-content">     
+<div class="profile-page ">
   <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="green">
+    <div class="page-header page-header-image" filter-color="green">
       <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');"></div>
       <div class="container">
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/JOE.jpg" alt="Image"/></a></div>
           <div class="h2 title">Weerapat Laocharoen</div>
           <p class="category text-white">Web Developer, IT support,  Video Edittor</p>
-          <div class="category text-success h4 title">JOE-DEK-IT</div>
+          <div class=" text-wri h4 title ">JOE-DEK-IT</div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="button-container"><a class="btn btn-info btn-round btn-lg btn-icon" href="https://web.facebook.com/WLJDIT/" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>&nbsp&nbsp<a class="btn btn-danger btn-round btn-lg btn-icon" href="https://github.com/JOE-DEK-IT" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a></i></a></div>
+      <div class="section ">
+        <div class="container ">
+          <div class="button-container"><a class="btn btn-info btn-round btn-lg btn-icon" href="https://web.facebook.com/WLJDIT/" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>&nbsp&nbsp<a class="btn btn-dark btn-round btn-lg btn-icon" href="https://github.com/JOE-DEK-IT" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a>&nbsp;&nbsp;<a class="btn btn-danger btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on youtube"><i class="fa fa-youtube-square"></i></a></i></a></div>
         </div>
       </div>
     </div>
   </div>
 </div>
+</div>
+
 <div class="section" id="about">
+  <div class="full-page-background top center no-repeat " style="background-image: url('images/bg1.jpg');">
   <div class="container">
-    <div class="card" data-aos="zoom-out-up" data-aos-offset="10">
+    &nbsp;
+    
+    <div class="card bg-card " data-aos="zoom-out-up" data-aos-offset="10">
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 ">
           <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
-            <p>HELLO,
-              I'm available for work.  Interested job positions</p>
-               <p>- IT Support</p>
-               <p>- Web developer</p>
-               <p>- Video editing </p>
+            <div class="h4 mt-0 title text text-wri">About</div>
+            <p class=" text-wri"style="font-size:17px">HELLO,I'm available for work.  Interested job positions</p>
+               <p class=" text-wri"style="font-size:17px">- IT Support</p>
+               <p class=" text-wri"style="font-size:17px">- Web developer</p>
+               <p class=" text-wri"style="font-size:17px">- Video editing </p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="h4 mt-0 title text-wri">Basic Information</div>
             <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">23</div>
+              <div class="col-sm-4 text-wri"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-8 text-wri">23</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8">weerapatonline@gmail.com</div>
+              <div class="col-sm-4 text-wri"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8 text-wri">weerapatonline@gmail.com</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-              <div class="col-sm-8">0988022903</div>
+              <div class="col-sm-4 text-wri"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8 text-wri">0988022903</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Military status:</strong></div>
-              <div class="col-sm-8">Passed military service</div>
+              <div class="col-sm-4 text-wri"><strong class="text-uppercase">Military status:</strong></div>
+              <div class="col-sm-8 text-wri">Passed military service</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">48/3 Sisongkram District. Nakhon Phanom Province. Postal code 48150 </div>
+              <div class="col-sm-4 text-wri"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8 text-wri">48/3 Sisongkram District. Nakhon Phanom Province. Postal code 48150 </div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-              <div class="col-sm-8">English(Basic), Thai</div>
+              <div class="col-sm-4 text-wri"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-8 text-wri">English(Basic), Thai</div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="skill">
+      </div>&nbsp;
+      &nbsp;
+    
+
+<div class="" id="skill">
   <div class="container">
-    <div class="h4 text-center mb-4 title">Web development skills</div>
-    <div class="card" data-aos="flip-left" data-aos-anchor-placement="top-bottom">
-      <div class="card-body">
-        <div class="row">
+    <div class="h4 text-center text-wri mb-4 title">Web development skills</div>
+    <div class="card1 " data-aos="flip-left" data-aos-anchor-placement="top-bottom">
+      <div class="card-body ">
+        <div class="row ">
           <div class="col-md-6">
-            <div class="progress-container progress-primary "><i class="fa fa-html5 fa-1x" aria-hidden="true"></i>&nbsp;<span class="progress-container">HTML</span>
+            <div class="progress-container text-wri progress-primary "><i class="fa fa-html5 fa-1x" aria-hidden="true"></i>&nbsp;<span class="progress-container">HTML</span>
               <div class="progress">
-                <div class="progress-bar progress-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
+                <div class="progress-bar progress-primary " data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value ">50%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><i class="fa fa-css3 fa-1x" aria-hidden="true">&nbsp</i><span class="progress-container">CSS</span>
+            <div class="progress-container text-wri progress-primary"><i class="fa fa-css3 fa-1x" aria-hidden="true">&nbsp</i><span class="progress-container">CSS</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
               </div>
@@ -127,38 +218,42 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><i class="fa fa-file-code-o" aria-hidden="true">&nbsp</i><span class="progress-container">JavaScript</span>
+            <div class="progress-container text-wri progress-primary"><i class="fa fa-file-code-o" aria-hidden="true">&nbsp</i><span class="progress-container">JavaScript</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div><span class="progress-value">40%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><i class="fa fa-file-code-o" aria-hidden="true">&nbsp</i><span class="progress-container">Bootstrap</span>
+            <div class="progress-container text-wri progress-primary"><i class="fa fa-file-code-o" aria-hidden="true">&nbsp</i><span class="progress-container">Bootstrap</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div><span class="progress-value">55%</span>
               </div>
             </div>
           </div>
         </div>
-</div>
     </div>
   </div>
-<div class="section" id="skill">
+  
+ 
+ 
+
+<div class="" id="skill">
+  &nbsp;
   <div class="container">
-    <div class="h4 text-center mb-4 title">Multimedia Skills</div>
-    <div class="card" data-aos="flip-left" data-aos-anchor-placement="top-bottom">
+    <div class="h4 text-center text-wri  mb-4 title ">Multimedia Skills</div>
+    <div class="card2" data-aos="flip-left" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-neutral"><i class="fa fa-youtube-play" aria-hidden="true">&nbsp</i><span class="progress-container">Premiere pro</span>
+            <div class="progress-container text-wri progress-neutral"><i class="fa fa-youtube-play" aria-hidden="true">&nbsp</i><span class="progress-container">Premiere pro</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
               </div>
             </div>
           </div>
             <div class="col-md-6">
-              <div class="progress-container progress-neutral"><i class="fa fa-picture-o" aria-hidden="true">&nbsp</i><span class="progress-container">Photoshop</span>
+              <div class="progress-container text-wri progress-neutral"><i class="fa fa-picture-o" aria-hidden="true">&nbsp</i><span class="progress-container">Photoshop</span>
                 <div class="progress">
                   <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
                 </div>
@@ -167,7 +262,7 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-neutral"><i class="fa fa-home" aria-hidden="true">&nbsp</i><span class="progress-container">sketchup</span>
+            <div class="progress-container text-wri progress-neutral"><i class="fa fa-home" aria-hidden="true">&nbsp</i><span class="progress-container">sketchup</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
               </div>
@@ -176,33 +271,36 @@
       </div>
       </div>
     </div>
-    <div class="section" id="skill">
+ 
+  </div>
+  
+    <div class="" id="skill">
+      &nbsp;
       <div class="container">
-        <div class="h4 text-center mb-4 title">IT Support Skills</div>
-        <div class="card" data-aos="flip-left" data-aos-anchor-placement="top-bottom">
+        <div class="h4 text-center text-wri mb-4 title">IT Support Skills</div>
+        <div class="card3" data-aos="flip-left" data-aos-anchor-placement="top-bottom">
           <div class="card-body text-lg-center">
             <div class="row">
-                <div class="card-body">
-                  <div class="h4 mt-0 title">Software/Hardware/Network</div>
+                <div class="card-body text-lg-center">
+                  <div class="h4 mt-0 title text-wri">Software/Hardware/Network</div>
                   <p></p>
-                     <p>- Can install Windows operating system and other programs.</p>
-                     <p>- Check and fix any defects caused by software.</p>
-                     <p>- Maintain internet and security systems </p>
-                     <p>- Keep your computer in good working order at all times.</p>
-                     <p>- Maintain computer equipment within the office such as computers, printers, and networking.</p>
+                     <p class="text-wri">- Can install Windows operating system and other programs.</p>
+                     <p class="text-wri">- Check and fix any defects caused by software.</p>
+                     <p class="text-wri">- Maintain internet and security systems </p>
+                     <p class="text-wri">- Keep your computer in good working order at all times.</p>
+                     <p class="text-wri">- Maintain computer equipment within the office such as computers, printers, and networking.</p>
                 </div>
               </div>
             </div>
         </div>
       </div>
-    </div>
   </div>
        
-<div class="section" id="Certificate">
+<div class="" id="Certificate">
   <div class="container">
     <div class="row">
       <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Certificate / Project</div>
+        <div class="h4 text-center text-wri mb-4 title">Certificate / Project</div>
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
             <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#TRANSCRIPT" role="tablist"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
@@ -222,7 +320,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#TRANSCRIPT">
-                  <figure class="cc-effect"><img src="images/img001.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="images/img001.jpg "width="500" height="600" alt="Image"/>
                     
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#TRANSCRIPT">
@@ -233,7 +331,7 @@
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#TRANSCRIPT">
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#TRANSCRIPT">
-                <figure class="cc-effect"><img src="images/img002.jpg" alt="Image"/>    
+                <figure class="cc-effect"><img src="images/img002.jpg"width="500" height="600" alt="Image"/>    
               </figure></a></div>
             </div>
           </div>
@@ -314,60 +412,62 @@
   </div>
 </div>
 
-<div class="section" id="experience">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-    <div class="card">
+<div class="" id="experience">
+  <div class="container cc-experience ">
+    <div class="h4 text-center text-wri mb-4 title">Work Experience</div>
+    <div class="card4">
       <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+        <div class="col-md-3 bg-warning" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>January - April 2019</p>
+            <p class="h6">January - April 2019</p>
             <div class="h5"> IT Support</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Internship at Sawang Daen Din Hospital</div>
-            <div class="h6">Responsibility</div>&nbsp
-            <p>- Take care of the computer All hardware equipment in hospital.</p>
-            <p>- Solve various problems including Software, Hardware, Network</p>
+            <div class="h5 text-wri">Internship at Sawang Daen Din Hospital</div>
+            <div class="text-wri">Responsibility</div>&nbsp
+            <p class="text-wri">- Take care of the computer All hardware equipment in hospital.</p>
+            <p class="text-wri">- Solve various problems including Software, Hardware, Network</p>
           </div>
         </div>
       </div>
     </div>
-<div class="section">
+<div class="">
+  &nbsp;
   <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Education</div>
-    <div class="card">
+    <div class="h4 text-center text-wri mb-4 title">Education</div>
+    <div class="card5">
       <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+        <div class="col-md-3 bg-info" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
-            <p>2015 - 2019</p>
+            <p class="h6">2015 - 2019</p>
             <div class="h5">Bachelor's Degree</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Graduated from Sakon Nakhon Rajabhat University</div>
+            <div class="h5 text-wri">Graduated from Sakon Nakhon Rajabhat University</div>
           <div>
             &nbsp
           </div>
-            <p class="category">Faculty: Science and Technology</p>
-            <p class="category">Major: Information Technology</p>
-            <p class="category">GPA: 3.39</p>
+            <p class=" text-wri">Faculty: Science and Technology</p>
+            <p class=" text-wri">Major: Information Technology</p>
+            <p class=" text-wri">GPA: 3.39</p>
           
           </div>
         </div>
       </div>
-    </div>
+    </div>&nbsp;
 
-<div class="section" id="contact">
+<div class="" id="contact">
+  &nbsp;
   <div class="cc-contact-information" style="background-image: url('images/staticmap.png');">
     <div class="container">
       <div class="cc-contact">
         <div class="row">
           <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
+            <div class="card  mb-0" data-aos="zoom-in">
               <div class="h4 text-center title">Contact Me</div>
               <div class="row">
                 <div class="col-md-6">
@@ -422,7 +522,7 @@
     </div>
     <footer class="footer">
       
-      <div class="h4 title text-center">JOE-DEK-IT</div>
+      <div class="h4 title text text-wri text-center">JOE-DEK-IT</div>
       <div class="text-center text-muted">
         <p>&copy; Creative 
       </div>
