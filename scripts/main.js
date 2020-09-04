@@ -41,3 +41,4 @@ $('a.smooth-scroll')
     }
   }
 });
+ 
