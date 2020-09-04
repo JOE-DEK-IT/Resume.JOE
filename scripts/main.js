@@ -41,4 +41,3 @@ $('a.smooth-scroll')
     }
   }
 });
- 
