@@ -1652,7 +1652,7 @@ pre code {
     line-height: 1.25;
     color: #495057;
     background-color: #fff;
-    background-image: none;
+    -: none;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem;
@@ -3208,22 +3208,6 @@ tbody.collapse.show {
     border-radius: .25rem
 }
 
-.custom-checkbox .custom-control-input:checked~.custom-control-indicator {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E")
-}
-
-.custom-checkbox .custom-control-input:indeterminate~.custom-control-indicator {
-    background-color: #007bff;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E")
-}
-
-.custom-radio .custom-control-indicator {
-    border-radius: 50%
-}
-
-.custom-radio .custom-control-input:checked~.custom-control-indicator {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E")
-}
 
 .custom-controls-stacked {
     display: -ms-flexbox;
