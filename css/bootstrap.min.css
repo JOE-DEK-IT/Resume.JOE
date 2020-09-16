@@ -8462,5 +8462,358 @@ a.text-dark:hover {
     visibility: hidden!important
 }
 
+.btn-squared-default
+    {
+        width: 100px !important;
+        height: 100px !important;
+        font-size: 15px;
+    }
 
-/*# sourceMappingURL=bootstrap.min.css.map */
+        .btn-squared-default:hover
+        {
+            border: 5px solid #0000002f;
+            font-weight: 800;
+        }
+
+    .btn-squared-default-plain
+    {
+        width: 100px !important;
+        height: 100px !important;
+        font-size: 15px;
+    }
+
+        .btn-squared-default-plain:hover
+        {
+            border: 0px solid white;
+        }
+
+        
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #104ac9ea;
+  color: white;
+}
+
+.github {
+  background: #555555fa;
+  color: white;
+}
+
+
+
+.linkedin {
+  background: #61b600da;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+
+  .glow {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+   @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 0px #e60073, 0 0 0px #e60073, 0 0 0px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #46dd00, 0 0 30px #46dd00, 0 0 40px #46dd00, 0 0 0px #46dd00, 0 0px #46dd00, 0 0 0px #46dd00;
+    }
+  }
+
+
+
+  .glow1 {
+    font-size: 25px;
+    color:#fff;
+    text-align: center;
+    -webkit-animation: glow1 1s ease-in-out infinite alternate;
+    -moz-animation: glow1 1s ease-in-out infinite alternate;
+    animation: glow1 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow1 {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0017e6a4, 0 0 30px #0017e6a4, 0 0 0px #0017e6a4, 0 0 0px #0017e6a4, 0 0 0px #0017e6a4;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #2900dd67, 0 0 30px #2900dd67, 0 0 40px #2900dd67, 0 0 0px #2900dd67, 0 0px #2900dd67, 0 0 0px #2900dd67;
+    }
+  }
+
+
+
+  .zoom {
+    padding: 40px;
+    transition: transform .2s; /* Animation */
+    width: 80px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+  body2 {font-family: Arial, Helvetica, sans-serif;}
+
+  /* The Modal (background) */
+  .modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content2 {
+    
+    position:relative;
+    background-color: #021222ee;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #00000000;
+    width: 80%;
+    
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.2),0 8px 20px 0 rgba(255, 255, 255, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #c8ff00;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header2 {
+    padding: 2px 16px;
+    background-color: #00224673;
+    color: white;
+  }
+  
+  .modal-body2 {padding: 20px 16px;}
+  
+  .modal-footer2 {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+
+
+  body3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #myBtntop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtntop:hover {
+    background-color: rgba(85, 85, 85, 0.322);
+  }
+
+
+
+
+    
+   
+  
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #8080800e; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b3000080; 
+  }
+
+  
+  .my-custom-scrollbar {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+  }
+   
+
+  * {
+    box-sizing:border-box;
+  }
+  
+  body4 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container4 {
+    padding: 64px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 55%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 45%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 35px;
+  }
+  
+  .xlarge-font {
+    font-size: 50px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  }
+  
+  img4 {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img4 {
+      margin: auto;
+    }
+  }
+
+
+  input.MyButton {
+    width: 250px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 125%;
+    background: #399c00e1;
+    color: #fff;
+    border: 1px solid #0808086c;
+    border-radius: 10px;
+    }
+    input.MyButton:hover {
+    color: #ffff00;
+    background: #000;
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    }
