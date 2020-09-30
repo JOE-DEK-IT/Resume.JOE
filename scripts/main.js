@@ -127,11 +127,12 @@ document.onmousedown=disableclick
 else if (document.getElementById)
 document.onmouseup=disableclick
 else if (document.layers)
-associateimages()
+associateimages();
+
 
 
 <script type="text/javascript">
 $(window).load(function() {
-	$(".loader").fadeOut("slow");
+	$(".loader").fadeOut("slow")
 })
 </script>
