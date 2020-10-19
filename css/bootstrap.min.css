@@ -537,7 +537,7 @@
             .blockquote-footer {
                 display: block;
                 font-size: 80%;
-                color: #868e96
+                color: #868e9600
             }
             
             .blockquote-footer::before {
@@ -551,8 +551,8 @@
             
             .img-thumbnail {
                 padding: .25rem;
-                background-color: #fff;
-                border: 1px solid #ddd;
+                background-color: #ffffff00;
+                border: 1px solid #ffffff00;
                 border-radius: .25rem;
                 transition: all .2s ease-in-out;
                 max-width: 100%;
@@ -8563,11 +8563,11 @@
             }
             
             body2 {
-                font-family: Arial, Helvetica, sans-serif;
+                font-family:"Montserrat", "Helvetica Neue",Arial, Helvetica, sans-serif;
             }
             /* The Modal (background) */
             
-            .modal {
+            .modalpf {
                 display: block;
                 /* Hidden by default */
                 position: fixed;
@@ -8593,17 +8593,21 @@
             
             .modal-content2 {
                 position: relative;
-                background-color: #021222ee;
+                background-color: #021222c4;
                 margin: auto;
                 padding: 0;
                 border: 1px solid #00000000;
-                width: 80%;
+                width: 70%;
                 box-shadow: 0 6px 10px 0 rgba(255, 255, 255, 0.2), 0 8px 20px 0 rgba(255, 255, 255, 0.19);
                 -webkit-animation-name: animatetop;
                 -webkit-animation-duration: 0.4s;
                 animation-name: animatetop;
-                animation-duration: 0.4s
+                animation-duration: 0.4s;
+                z-index: 10;
+                border-radius: 20px;
+
             }
+        
             /* Add Animation */
             
             @-webkit-keyframes animatetop {
@@ -8645,12 +8649,13 @@
             
             .modal-header2 {
                 padding: 2px 16px;
-                background-color: #00224673;
+                background-color: #00224600;
                 color: white;
             }
             
             .modal-body2 {
                 padding: 20px 16px;
+                
             }
             
             .modal-footer2 {
@@ -8778,20 +8783,4 @@
                 }
             }
             
-            input.MyButton {
-                width: 250px;
-                padding: 20px;
-                cursor: pointer;
-                font-weight: bold;
-                font-size: 125%;
-                background: #399c00e1;
-                color: #fff;
-                border: 1px solid #0808086c;
-                border-radius: 10px;
-            }
             
-            input.MyButton:hover {
-                color: #ffff00;
-                background: #000;
-                border: 1px solid rgba(255, 255, 255, 0.329);
-            }
