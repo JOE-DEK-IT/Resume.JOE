@@ -7056,7 +7056,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .gallery figure.cc-effect figcaption::after {
-  top: 10px;
+  top: 0px;
   right: 10px;
   bottom: 10px;
   left: 10px;
